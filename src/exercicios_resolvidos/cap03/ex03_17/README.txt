@@ -1,0 +1,1 @@
+NOTE: Since we have not discussed how to do arithmetic with Dates at this point in the book, we simplified our solution to store the person's birth year and the current year. These are then used to calculate the person's age in years.
