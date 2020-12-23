@@ -1,3 +1,5 @@
+package exemplos.cap15.TextFileApps;
+
 // Fig. 15.8: CreditInquiry.java
 // This program reads a file sequentially and displays the
 // contents based on the type of account the user requests 

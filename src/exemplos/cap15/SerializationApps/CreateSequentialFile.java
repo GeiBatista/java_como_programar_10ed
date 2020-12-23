@@ -1,3 +1,4 @@
+package exemplos.cap15.SerializationApps;
 // Fig. 15.10: CreateSequentialFile.java
 // Writing objects sequentially to a file with class ObjectOutputStream.
 import java.io.IOException;
@@ -7,8 +8,7 @@ import java.nio.file.Paths;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-public class CreateSequentialFile
-{
+public class CreateSequentialFile{
    private static ObjectOutputStream output; // outputs data to file
 
    public static void main(String[] args)
@@ -24,7 +24,7 @@ public class CreateSequentialFile
       try 
       {
          output = new ObjectOutputStream(
-            Files.newOutputStream(Paths.get("clients.ser")));
+            Files.newOutputStream(Paths.get("D:\\Documentos\\Cursos\\JAVA como programar (Deitel)\\java_como_programar_10ed\\src\\exemplos\\cap15\\SerializationApps\\clients.ser")));
       }
       catch (IOException ioException)
       {

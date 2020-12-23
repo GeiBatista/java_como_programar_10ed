@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane hgap="10.0" vgap="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" />
+    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints valignment="CENTER" vgrow="ALWAYS" />
+<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+    <RowConstraints valignment="CENTER" vgrow="ALWAYS" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+<children><ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+<image>
+<Image url="@yellowflowers.JPG" />
+</image></ImageView><ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+<image>
+<Image url="@purpleflowers.JPG" />
+</image></ImageView><ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+<image>
+<Image url="@yellowredflowers.JPG" />
+</image></ImageView><ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+<image>
+<Image url="@fuschiaflowers.JPG" />
+</image></ImageView><Label text="Yellow Flowers" GridPane.rowIndex="1" /><Label text="Purple Flowers" GridPane.columnIndex="1" GridPane.rowIndex="1" /><Label text="Red &amp; Yellow Flowers" GridPane.rowIndex="3" /><Label text="Fuschia Flowers" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+</children>
+</GridPane>

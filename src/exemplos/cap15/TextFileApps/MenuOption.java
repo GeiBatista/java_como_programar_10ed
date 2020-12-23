@@ -1,3 +1,5 @@
+package exemplos.cap15.TextFileApps;
+
 // Fig. 15.7: MenuOption.java
 // enum type for the credit-inquiry program's options.
 

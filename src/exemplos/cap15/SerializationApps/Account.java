@@ -1,9 +1,9 @@
+package exemplos.cap15.SerializationApps;
 // Fig. 15.9: Account.java
 // Serializable Account class for storing records as objects.
 import java.io.Serializable;
 
-public class Account implements Serializable
-{
+public class Account implements Serializable{
    private int account;
    private String firstName;
    private String lastName;

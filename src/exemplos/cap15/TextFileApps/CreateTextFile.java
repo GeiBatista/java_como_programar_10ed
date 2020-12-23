@@ -1,5 +1,5 @@
-// Fig. 15.3: CreateTextFile.java
-// Writing data to a sequential text file with class Formatter.
+package exemplos.cap15.TextFileApps;
+// Fig. 15.3: CreateTextFile.java // Writing data to a sequential text file with class Formatter.
 import java.io.FileNotFoundException;     
 import java.lang.SecurityException;       
 import java.util.Formatter;               

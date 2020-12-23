@@ -1,3 +1,5 @@
+package exemplos.cap15.SerializationApps;
+
 // Fig. 15.11: ReadSequentialFile.java
 // Reading a file of objects sequentially with ObjectInputStream
 // and displaying each record.
@@ -24,7 +26,7 @@ public class ReadSequentialFile
       try // open file
       {
          input = new ObjectInputStream(          
-            Files.newInputStream(Paths.get("clients.ser")));
+            Files.newInputStream(Paths.get("D:\\Documentos\\Cursos\\JAVA como programar (Deitel)\\java_como_programar_10ed\\src\\exemplos\\cap15\\SerializationApps\\clients.ser")));
       } 
       catch (IOException ioException)
       {

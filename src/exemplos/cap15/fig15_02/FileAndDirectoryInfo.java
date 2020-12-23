@@ -1,3 +1,5 @@
+package exemplos.cap15.fig15_02;
+
 // Fig. 15.2: FileAndDirectoryInfo.java
 // File class used to obtain file and directory information.
 import java.io.IOException;

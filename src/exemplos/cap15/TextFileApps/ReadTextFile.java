@@ -1,5 +1,6 @@
-// Fig. 15.6: ReadTextFile.java
-// This program reads a text file and displays each record.
+
+package exemplos.cap15.TextFileApps;
+// Fig. 15.6: ReadTextFile.java// This program reads a text file and displays each record.
 import java.io.IOException;
 import java.lang.IllegalStateException;
 import java.nio.file.Files;

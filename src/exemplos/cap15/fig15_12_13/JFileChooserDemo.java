@@ -1,6 +1,5 @@
 package exemplos.cap15.fig15_12_13;
-// Fig. 15.12: JFileChooserDemo.java
-// Demonstrating JFileChooser.
+// Fig. 15.12: JFileChooserDemo.java // Demonstrating JFileChooser.
 import java.io.IOException;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
