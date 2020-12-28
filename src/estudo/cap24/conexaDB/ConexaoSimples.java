@@ -17,7 +17,7 @@ public class ConexaoSimples {
 				Statement statement = connection.createStatement();
 				ResultSet resultSet = statement.executeQuery(SELECT_QUERY))
 		{
-			
+			System.err.println("Banco conectado");
 			 ResultSetMetaData metaData = resultSet.getMetaData();
 	         int numberOfColumns = metaData.getColumnCount();    
 			

@@ -25,8 +25,8 @@ public class DisplayQueryResults extends JFrame
 {
    // database URL, username and password
    private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/books?useTimezone=true&serverTimezone=UTC";
-   private static final String USERNAME = "developer";
-   private static final String PASSWORD = "181292";
+   private static final String USERNAME = "root";
+   private static final String PASSWORD = "";
    
    // default query retrieves all data from authors table
    private static final String DEFAULT_QUERY = "SELECT * FROM authors";
